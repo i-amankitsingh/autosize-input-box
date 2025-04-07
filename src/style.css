@@ -1,0 +1,32 @@
+.container{
+  width: 100%;
+  position: relative;
+}
+
+.message-input {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 0.25rem 0.5rem;
+  outline: none;
+  font-size: 16px;
+  word-break: break-word !important;
+  overflow-wrap: break-word !important;
+  white-space: pre-wrap !important;
+}
+
+.message-input:focus {
+  border: 1px solid black;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0);
+}
+
+.placeholder {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  height: 100%;
+  pointer-events: none;
+  color: #9CA3AF;
+  padding: 0.25rem 0.5rem;
+  user-select: none;
+}

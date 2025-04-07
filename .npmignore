@@ -1,0 +1,13 @@
+# Ignore unnecessary files from NPM package
+node_modules/
+src/
+tests/
+__tests__/
+coverage/
+.vscode/
+.idea/
+.DS_Store
+.git/
+.gitignore
+npm-debug.log
+yarn.lock

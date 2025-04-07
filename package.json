@@ -1,0 +1,70 @@
+{
+  "name": "message-type-input",
+  "version": "13.0.0",
+  "private": false,
+  "type": "module",
+  "main": "dist/message-type-input.umd.js",
+  "module": "dist/message-type-input.es.js",
+  "types": "dist/index.d.ts",
+  "style": "dist/style.css",
+  "files": [
+    "dist",
+    "dist/index.d.ts",
+    "dist/MessageInput.d.ts",
+    "dist/message-type-input.es.js",
+    "dist/message-type-input.umd.js",
+    "dist/style.css"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/message-type-input.es.js",
+      "require": "./dist/message-type-input.umd.js",
+      "style": "./dist/message-input.css"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build && cp src/style.css dist/style.css",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "@types/node": "^22.13.17",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.21.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^15.15.0",
+    "typescript": "~5.7.2",
+    "typescript-eslint": "^8.24.1",
+    "vite": "^6.2.0",
+    "vite-plugin-dts": "^4.5.3",
+    "vite-plugin-lib-inject-css": "^2.2.1"
+  },
+  "description": "A React component for a message input field with auto-wrapping text.",
+  "keywords": [
+    "react",
+    "message-input",
+    "chat",
+    "contenteditable"
+  ],
+  "author": "Ankit Singh Jethuri",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/message-type-input.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/message-type-input/issues"
+  },
+  "homepage": "https://github.com/your-username/message-type-input#readme"
+}
