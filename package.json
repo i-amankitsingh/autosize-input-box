@@ -50,7 +50,7 @@
     "vite-plugin-dts": "^4.5.3",
     "vite-plugin-lib-inject-css": "^2.2.1"
   },
-  "description": "A React component for a message input field with auto-wrapping text.",
+  "description": "A lightweight, customizable React component that mimics modern chat input fields. It supports dynamic text wrapping using a contentEditable div and displays a placeholder when the field is empty — perfect for messaging apps, chatbots, or support UIs.",
   "keywords": [
     "react",
     "message-input",
@@ -61,10 +61,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/message-type-input.git"
+    "url": "https://github.com/i-amankitsingh/autosize-input-box"
   },
   "bugs": {
-    "url": "https://github.com/your-username/message-type-input/issues"
+    "url": "https://github.com/i-amankitsingh/autosize-input-box/issues"
   },
-  "homepage": "https://github.com/your-username/message-type-input#readme"
+  "homepage": "https://github.com/i-amankitsingh/autosize-input-box/edit/main/README.md"
 }
