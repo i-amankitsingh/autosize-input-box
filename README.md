@@ -41,6 +41,7 @@ const App = () => {
     />
   );
 };
+```
 
 🧩 Props
 Prop	                      Type	                                    Description
