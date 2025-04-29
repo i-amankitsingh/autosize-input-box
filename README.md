@@ -44,6 +44,7 @@ const App = () => {
 ```
 
 🧩 Props
+```bash
 Prop	                      Type	                                    Description
 onChange	                  (value: string) => void	                  Required. Callback fired whenever content changes
 className	                  string	                                  Optional class for styling the message input
@@ -51,13 +52,13 @@ style	                      React.CSSProperties	                      Inline sty
 placeholder	                string	                                  Text shown when input is empty (default: "Type...")
 placeholderClassName	      string	                                  Optional class to style the placeholder
 placeHolderStyle	          React.CSSProperties	                      Inline styles for the placeholder
-
+```
 
 🎨 Customization
 You can style your component with:
 
 ✅ CSS Classes
-
+```bash
 .custom-input {
   min-height: 40px;
   border: 1px solid #ccc;
@@ -70,14 +71,14 @@ You can style your component with:
   color: #aaa;
   font-style: italic;
 }
-
+```
 ✅ Inline Styling
-
+```bash
 <MessageInput
   style={{ padding: "12px", border: "1px solid #ccc" }}
   placeHolderStyle={{ padding: "12px", color: "gray" }}
 />
-
+```
 
 🔍 Use Cases
 💬 Chat Interfaces: Build Slack/WhatsApp-like chat UIs.
